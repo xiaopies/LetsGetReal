@@ -5,5 +5,16 @@ public class Tester{
     System.out.println(a.equals(b));
     System.out.println(a.add(b));
     System.out.println(a.multiply(b));
+    System.out.println(a.divide(b));
+    System.out.println(a.subtract(b));
+    RationalNumber c = new RationalNumber(1, 2);
+    RationalNumber d = new RationalNumber(2, 1);
+    RationalNumber e = d.reciprocal();
+    System.out.println(c.getValue());
+    System.out.println(c.getNumerator());
+    System.out.println(c.getDenominator());
+    System.out.println(c.reciprocal());
+    System.out.println(c.equals(e));
+    System.out.println(c.toString();
   }
 }

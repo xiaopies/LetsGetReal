@@ -29,4 +29,15 @@ public class RealNumber{
      RealNumber hi = new RealNumber(a);
      return hi;
    }
+   public RealNumber divide(RealNumber other){
+      double a = getValue() / other.getValue();
+      RealNumber hi = new RealNumber(a);
+      return hi;
+    }
+    public RealNumber subtract(RealNumber other){
+       double a = getValue() - other.getValue();
+       RealNumber hi = new RealNumber(a);
+       return hi;
+     }
+
 }
