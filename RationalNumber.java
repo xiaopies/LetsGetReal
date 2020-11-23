@@ -36,7 +36,7 @@ public class RationalNumber extends RealNumber {
   public String toString(){
     return numerator + "/" + denominator;
   }
-  public static int gcd(int a, int b){
+  private static int gcd(int a, int b){
     int x = Math.max(a, b);
     int y = Math.min(a, b);
     int r = a;
@@ -46,6 +46,12 @@ public class RationalNumber extends RealNumber {
       y = r;
     }
     return x;
+  }
+  public void reduce(){
+    int a = gcd(numerator, denominator);
+    numerator = numerator/a;
+    denominator = denominator/a;
+
   }
 
 
