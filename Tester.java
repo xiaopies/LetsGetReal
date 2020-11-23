@@ -15,6 +15,9 @@ public class Tester{
     System.out.println(c.getDenominator());
     System.out.println(c.reciprocal());
     System.out.println(c.equals(e));
-    System.out.println(c.toString();
+    System.out.println(c.toString());
+    System.out.println(c);
+    System.out.println(RationalNumber.gcd(32, 38));
+    RationalNumber f = new RationalNumber(36, 72);
   }
 }
