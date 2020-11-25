@@ -8,7 +8,7 @@ public class Tester{
     System.out.println(a.divide(b));
     System.out.println(a.subtract(b));
     RationalNumber c = new RationalNumber(1, 2);
-    RationalNumber d = new RationalNumber(-2, 1);
+    RationalNumber d = new RationalNumber(2, 1);
     RationalNumber e = d.reciprocal();
     System.out.println(c.getValue());
     System.out.println(c.getNumerator());
