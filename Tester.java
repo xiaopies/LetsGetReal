@@ -26,5 +26,10 @@ public class Tester{
     System.out.println(h);
     RationalNumber i = new RationalNumber(1, -3);
     System.out.println(i);
+    RationalNumber j = new RationalNumber(0, -3);
+    System.out.println(j);
+    RationalNumber k = new RationalNumber(9, 1);
+    System.out.println(k);
+
   }
 }

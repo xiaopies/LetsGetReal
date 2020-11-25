@@ -33,7 +33,12 @@ public class RationalNumber extends RealNumber {
     return (getNumerator() == other.getNumerator() && getDenominator() == other.getDenominator());
   }
   public String toString(){
-
+    if (denominator == 1){
+      return ""+ numerator;
+    }
+    if (numerator == 0 ){
+      return "0";
+    }
     return numerator + "/" + denominator;
   }
   private static int gcd(int a, int b){
