@@ -30,6 +30,8 @@ public class Tester{
     System.out.println(j);
     RationalNumber k = new RationalNumber(9, 1);
     System.out.println(k);
+    RationalNumber Jennifer = new RationalNumber(210, 45);
+    System.out.println(Jennifer);
 
   }
 }
